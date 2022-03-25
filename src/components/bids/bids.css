@@ -42,9 +42,9 @@ body{
   border-radius: 20px;
   width: 100%;
 }
-.bids-card:hover .overlay {
+/* .bids-card:hover .overlay {
   opacity: 10;
-}
+} */
 .image-responsive
 {
   display: block;

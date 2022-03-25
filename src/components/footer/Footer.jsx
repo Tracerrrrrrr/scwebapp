@@ -25,8 +25,8 @@ const Footer = () => {
         <div className="footer-links_div">
           <h4 style={{marginLeft:'26px'}}> Contact</h4>
          
-          <p><AddLocationIcon style={{marginRight:'4px'}}/>Neeladri Nagar, Electronics City Phase 1, Bengaluru, Karnataka 560100</p>
-          <p style={{marginLeft:'4px'}}><AiFillMail style={{marginRight:'8px'}}/>socioclubsc@gmail.com</p>
+          <a target="_blank" href="https://maps.app.goo.gl/MiCdb6VfxGiCgmW18"><p><AddLocationIcon style={{marginRight:'4px'}}/> Electronics City Phase 1, Bengaluru, Karnataka 560100</p></a>
+          <a href="https://mail.google.com/mail/u/0/?fs=1&to=socioclubsc@gmail.com&tf=cm" target="_blank"><p style={{marginLeft:'4px'}}><AiFillMail style={{marginRight:'8px'}}/>socioclubsc@gmail.com</p></a>
         </div>
       </div>
       <div className="footer-copyright">
@@ -38,7 +38,7 @@ const Footer = () => {
         </div> */}
         <div className="flex-icon">
           <div className="card-icon">
-            <a
+            <a target="_blank"
               style={{ display: "flex" }}
               href="https://www.linkedin.com/company/socioclub/"
             >
@@ -52,17 +52,18 @@ const Footer = () => {
           </div>
           <div className="card-icon">
           
-          <a style={{ display: "flex" }} href="https://www.instagram.com/socio__club/?hl=en">
+          <a target="_blank" style={{ display: "flex" }} href="https://www.instagram.com/socioclub/?hl=en">
             <AiOutlineInstagram
               size={25}
               color="white"
               className="footer-icon"
             />
+            <p>Instagram</p>
           </a>
-          <p>Instagram</p>
+          
           </div>
           <div className="card-icon">
-          <a style={{ display: "flex" }} href="https://www.facebook.com/profile.php?id=100078175297249">
+          <a target="_blank" style={{ display: "flex" }} href="https://www.facebook.com/profile.php?id=100078175297249">
             <AiFillFacebook
               size={25}
               color="white"

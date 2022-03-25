@@ -23,6 +23,7 @@ height: 150px;
 width: 150px;
 padding: 10px;
 }
+/* 
 img:hover{
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -39,7 +40,7 @@ img:hover{
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
+} */
 .navbar-links_logo h1{
   font-family: var(--font-family);
   font-weight: bold;
