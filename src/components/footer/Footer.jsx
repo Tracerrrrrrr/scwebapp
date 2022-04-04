@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
           <div className="card-icon">
           
-          <a target="_blank" style={{ display: "flex" }} href="https://www.instagram.com/socioclub/?hl=en">
+          <a target="_blank" style={{ display: "flex" }} href="https://instagram.com/socio__club?utm_medium=copy_link">
             <AiOutlineInstagram
               size={25}
               color="white"
